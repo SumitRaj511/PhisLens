@@ -13,11 +13,17 @@ Paste an email or drop in an `.eml` file and get an explainable risk score, wher
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-experiment-F7931E?logo=scikitlearn&logoColor=white)
 ![Local only](https://img.shields.io/badge/data-stays%20local-2ea44f)
 
-<!-- TODO: add a screenshot or GIF of the app here, e.g.
-<img src="docs/screenshot.png" alt="PhisLens analysis view" width="820">
--->
 
 </div>
+
+---
+
+##Screenshots
+
+<img width="1871" height="922" alt="Screenshot 2026-11-19 002840" src="https://github.com/user-attachments/assets/0a1ffbba-3406-45aa-a3dd-61f2b4c2a375" />
+<img width="1511" height="788" alt="Screenshot 2026-11-19 002934" src="https://github.com/user-attachments/assets/d7b5a258-8ccd-4723-a1a3-9d2af082b2d9" />
+<img width="1583" height="892" alt="Screenshot 2026-11-19 003030" src="https://github.com/user-attachments/assets/387e7ae4-33a1-4653-8ca9-1de75d7e2c25" />
+
 
 ---
 
