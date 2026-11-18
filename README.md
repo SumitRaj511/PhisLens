@@ -161,13 +161,6 @@ PhisLens is an **educational triage aid, not a verdict**. It cannot prove a mess
 - **No QR-code image analysis** and **no remote threat-intelligence checks** in this version.
 - Always treat suspicious messages with caution, and verify through a trusted channel before clicking links or sharing information.
 
-## Roadmap
-
-- [ ] Evaluate the ML experiment on a public phishing corpus and report precision/recall
-- [ ] Cross-platform launcher scripts (`start.sh`) and/or Docker support
-- [ ] Sample `.eml` files for quick demos
-- [ ] CI to run backend tests and the frontend build
-- [ ] Expanded rule coverage
 
 ## Contributing
 
