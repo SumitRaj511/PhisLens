@@ -1,0 +1,24 @@
+From: Security Notices <alerts@example.net>
+Reply-To: reply@example.org
+To: recipient@example.com
+Subject: URGENT: Your account will be suspended today
+Authentication-Results: mx.example; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="phis-lens-example"
+
+--phis-lens-example
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Your account will be suspended today unless you verify it immediately.
+Reply with your password and current MFA verification code.
+Sign in here: http://account-security.example/verify
+Open the attached notice to avoid account closure.
+
+--phis-lens-example
+Content-Type: application/octet-stream; name="receipt.exe"
+Content-Disposition: attachment; filename="receipt.exe"
+Content-Transfer-Encoding: base64
+
+ZmFrZQ==
+--phis-lens-example--
