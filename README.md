@@ -157,22 +157,4 @@ PhisLens/
 | ML experiment | scikit-learn |
 | Testing | Python `unittest` |
 
-## Limitations
 
-PhisLens is an **educational triage aid, not a verdict**. It cannot prove a message is malicious or safe.
-
-- **No DNS or cryptographic verification.** SPF, DKIM, and DMARC are assessed only when results already appear in the pasted headers.
-- **The ML model is not a reliable classifier.** It is trained on a small set of fictional examples, has not been evaluated on a real-world email corpus, and does not affect the score.
-- **Attachments are never opened**, so attachment contents are not analyzed.
-- **No QR-code image analysis** and **no remote threat-intelligence checks** in this version.
-- Always treat suspicious messages with caution, and verify through a trusted channel before clicking links or sharing information.
-
-
-## Contributing
-
-Issues and pull requests are welcome. For larger changes, please open an issue first to discuss what you'd like to change. Please run the backend tests and `npm run build` before submitting a PR.
-
-## License
-
-<!-- TODO: add a LICENSE file (e.g. MIT) and update this line. -->
-See the [LICENSE](LICENSE) file for details.
